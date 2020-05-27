@@ -18,7 +18,7 @@ from telethon import events
 from userbot import bot, BOTLOG_CHATID, LOGSPAMMER
 
 
-def register(**args):
+def kyne3301(**args):
     """ Register a new event. """
     pattern = args.get('pattern', None)
     disable_edited = args.get('disable_edited', False)
@@ -146,3 +146,5 @@ def register(**args):
         return wrapper
 
     return decorator
+from userbot import bot
+register = kyne3301
