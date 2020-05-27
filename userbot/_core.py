@@ -11,6 +11,10 @@ import traceback
 import os
 import userbot.utils
 from datetime import datetime
+admin_cmd = obsq
+command = qsbo
+register = kyne3301
+borg = bot
 
 DELETE_TIMEOUT = 5
 
